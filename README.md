@@ -10,6 +10,6 @@
   - 其他测试文件
  
 ### 测试项目指令：
-1.配置hdfs环境\n
-2.运行测试指令\n
-‘python3 project1.py -r hadoop input_file -o hdfs_output --jobconf myjob.settings.k=2 --jobconf mapreduce.job.reduces=2’
+1.配置hdfs环境  
+2.运行测试指令  
+`python3 project1.py -r hadoop input_file -o hdfs_output --jobconf myjob.settings.k=2 --jobconf mapreduce.job.reduces=2`
