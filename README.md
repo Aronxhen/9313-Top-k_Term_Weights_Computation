@@ -1,5 +1,8 @@
 # 9313 Top-k Term Weights Computation 大规模文本数据分析
 
+### 项目介绍：
+分别使用了 Hadoop MapReduce、Spark RDD 和 Spark DataFrame 三种技术框架，三个不同的数据分析系统，用于对澳大利亚ABC新闻数据集进行分析，检测每年热门和流行的新闻话题。
+
 ### 项目组成：
 - MapReduce 文件夹 
   - project1.py (MR 源代码)
