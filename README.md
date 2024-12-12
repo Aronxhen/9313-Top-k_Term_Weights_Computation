@@ -13,6 +13,8 @@
 1.配置hdfs环境  
 2.运行测试指令  
 `python3 project1.py -r hadoop input_file -o hdfs_output --jobconf myjob.settings.k=2 --jobconf mapreduce.job.reduces=2`
-
-
-
+参数：
+input_file 输入文件
+hdfs_output 输出文件，可改为本地
+myjob.settings.k top-k参数
+mapreduce.job.reduces reducer数量
